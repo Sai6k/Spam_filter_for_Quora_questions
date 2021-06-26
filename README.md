@@ -5,10 +5,15 @@ Data: The provided data consists of 10,48,576 questions from Quora divided in to
 
 Procedure: 
 Step 1: Cleaning the data to remove outliers, puntuation marks and then converting the sentenses in to lowercase.
+
 Step 2: tokenising the words in the sentenses using tokenizer. And using GloVe vector to vectorize the words.
+
 Step 3: extract the vectors that are required for data set of words.
+
 Step 4: Splitting the processes data in to Train and test sets
-Step 4: Build the 1D Convolution model 
+
+Step 4: Build the 1D Convolution model
+
 ![model](https://user-images.githubusercontent.com/82253441/123509175-94cd0c00-d691-11eb-9816-058e0882c761.png)
 
 The performance of the model can be further improved by correcting the spelling mistakes, unnecessary number and symbols.
